@@ -95,5 +95,4 @@ void Terminate(IntQueue* q)
 	if (q->que != NULL)
 		free(q->que);
 	q->max = q->front = q->rear = 0;
-
 }
